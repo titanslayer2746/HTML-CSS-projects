@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#grid-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.cell {
+    border: 1px solid black;
+    background-color: #90EDE6;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: none;
+    height: 38px;
+    color: #f9faf8;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+}
