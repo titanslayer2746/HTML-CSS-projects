@@ -39,6 +39,10 @@
     cursor: pointer;
 }
 
+.card:hover{
+    transform: scale(1.1);
+}
+
 .selection-cards{
     margin-left: 100px;
     display: flex;
