@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.arena{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.player{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(2,27,26);
+    color: #00Df81;
+    font-size: 48px;
+}
+
+.title-card{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.player-name{
+    margin-right: 10px;
+}
+
+.play-area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.card{
+    font-size: 150px;
+    cursor: pointer;
+}
+
+.selection-cards{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selected-card{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.robot{
+    width: 50%;
+    height: 100vh;
+    background-color: #00Df81;
+    color: rgb(2,27,26);
+}
+
+.robot-title{
+    font-size: 48px;
+}
+
+.robot-selection-cards{
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.robot-card{
+    cursor:default;
+}
+
+.selected-robot-card{
+    margin-left: 100px;
+    margin-right: 0;
+}
