@@ -91,7 +91,7 @@ function App() {
     
         <div className="inputs">
             <div className="topic-input">
-                      <input ref={textInput} type="text" placeholder="movie/anime/show"/>
+                      <input ref={textInput} type="text" placeholder="select any topic"/>
                       <button onClick={handleTopic}>Select</button>
             </div>
             {topic.length>0&&(<div className="difficulty">
@@ -148,9 +148,9 @@ function App() {
           <ul>
             {quizArray.map((q, index) => (
                             <li key={index} style={{backgroundColor: q.answer === userAnswers[index] ? "#418b24" : "#e90c00"}}>
-                                  <strong>Question:</strong>{index+1} {q.question} <br/>
+                                  <strong>Q.</strong>{index+1} {q.question} <br/>
                                   <strong>Correct Answer:</strong> {q.answer} - {q.options[q.answer]}
-                            </li>
+                            </li>       
     ))}
           </ul>
         </div>
